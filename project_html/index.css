@@ -1,0 +1,29 @@
+body {
+    background-color: #52e1e1;
+    font-family: Verdana, sans-serif;
+}
+
+table {
+    
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+}
+
+img {
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+}

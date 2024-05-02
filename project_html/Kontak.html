@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header style="text-align: center;">
+        <h1>Hubungi Kami</h1>
+        <p>Email: rianfauza@gmhs.pelitabangsa.ac.id</p>
+    </header>
+    
+    <section id="form-kontak">
+        <h3>Silakan isi formulir di bawah ini:</h3>
+        <form action="proses_form_kontak.php" method="post">
+            <div class="input-container">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="input-container">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-container">
+                <label for="pesan">Pesan:</label>
+                <textarea id="pesan" name="pesan" rows="4" required></textarea>
+            </div>
+            <button type="submit">Kirim Pesan</button>
+        </form>
+    </section>
+    <div class="footer-link">
+        <a href="home.html">Kembali ke halaman utama</a>
+    </div>
+    <!-- Tambahkan footer atau bagian lainnya sesuai kebutuhan Anda -->
+</body>
+</html>
